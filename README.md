@@ -1,6 +1,6 @@
 File structure
 
-````
+```
 ├── app
 |  ├── config
 |  |  ├── env.dev.js
@@ -52,3 +52,17 @@ File structure
 ├── storybook
 └── test
 ```
+
+# Refactoring plan
+## File structure
+
+- [ ] Moving `components - navigation - pages - theme` to `src/views` folder
+- [ ] Moving all graphql related files (cache - client - config) to `src/graphql`
+- [ ] Moving `useData.js` to hooks and naming them correctly
+- [ ] Make manager and pumper pages not seperated by folder but by functionality and file name
+
+## Moving business logic to BE
+
+- [ ] Find places where attr propagation is happening on the client and move that logic to the BE.
+
+
