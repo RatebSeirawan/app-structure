@@ -1,3 +1,6 @@
+File structure
+
+````
 ├── app
 |  ├── config
 |  |  ├── env.dev.js
@@ -48,3 +51,4 @@
 ├── e2e
 ├── storybook
 └── test
+```
